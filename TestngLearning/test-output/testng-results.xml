@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68" started-at="2020-01-07T18:47:14 CST" finished-at="2020-01-07T18:47:14 CST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="68" started-at="2020-01-07T18:47:14 CST" finished-at="2020-01-07T18:47:14 CST">
+      <class name="parameterization.TestNGDataProvider">
+        <test-method status="PASS" signature="userLoginTest(java.lang.String, java.lang.String)[pri:0, instance:parameterization.TestNGDataProvider@1c3a4799]" name="userLoginTest" duration-ms="9" started-at="2020-01-07T18:47:14 CST" data-provider="getData" finished-at="2020-01-07T18:47:14 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user1Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLoginTest -->
+        <test-method status="PASS" signature="userLoginTest(java.lang.String, java.lang.String)[pri:0, instance:parameterization.TestNGDataProvider@1c3a4799]" name="userLoginTest" duration-ms="0" started-at="2020-01-07T18:47:14 CST" data-provider="getData" finished-at="2020-01-07T18:47:14 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user2Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLoginTest -->
+        <test-method status="PASS" signature="userLoginTest(java.lang.String, java.lang.String)[pri:0, instance:parameterization.TestNGDataProvider@1c3a4799]" name="userLoginTest" duration-ms="1" started-at="2020-01-07T18:47:14 CST" data-provider="getData" finished-at="2020-01-07T18:47:14 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user3Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLoginTest -->
+        <test-method status="PASS" signature="userLoginTest(java.lang.String, java.lang.String)[pri:0, instance:parameterization.TestNGDataProvider@1c3a4799]" name="userLoginTest" duration-ms="1" started-at="2020-01-07T18:47:14 CST" data-provider="getData" finished-at="2020-01-07T18:47:14 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user4@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user4Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLoginTest -->
+      </class> <!-- parameterization.TestNGDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
